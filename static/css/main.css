@@ -1,0 +1,48 @@
+html, body { 
+    height: 100%;             /* Make the page fill the whole screen */ 
+    margin: 0;                /* Remove default margins */ 
+    display: flex;            /* Use Flexbox layout */ 
+    flex-direction: column;   /* Stack header, main, footer vertically */ 
+    margin: 0;
+    padding: 0;
+    background-color: rgb(25, 122, 163);
+} 
+
+main { 
+    flex: 1;                  /* Fills remaining space between header and footer */ 
+} 
+
+footer { 
+    background-color: #333; 
+    color: white; 
+    text-align: center; 
+    padding: 10px; 
+} 
+
+h2, p {
+    margin: 10px;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333333;
+}
+
+ul li {
+    float: left;
+}
+
+ul li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+ul li a:hover {
+    background-color: #111111;
+}
