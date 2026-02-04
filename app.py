@@ -6,4 +6,4 @@ app = Flask(__name__)
 def index():
     return render_template("index.html")
 
-#flask run to use, only in powershell
+#flask run to use, only in powershell, activate VENV first

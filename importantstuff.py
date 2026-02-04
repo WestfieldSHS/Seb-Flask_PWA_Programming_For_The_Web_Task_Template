@@ -11,4 +11,4 @@
 #venv\Scripts\Activate.ps1
 
 #GETTING FLASK
-#flask run      (only in powershell, uses app.py and index.html file in templates)
+#flask run      (only in powershell, activate VENV beforehand, uses app.py and index.html file in templates,)
