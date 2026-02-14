@@ -1,0 +1,11 @@
+-- database: ./data_source.db
+
+SELECT * FROM "table-name";
+CREATE TABLE Animated_Films(Film_ID INTEGER PRIMARY KEY,Film_name TEXT,Film_Director TEXT,Film_Year INTEGER);
+
+INSERT INTO Animated_Films(Film_ID,Film_name,Film_Director,Film_Year) 
+VALUES (1,"Toy Story","John Lasseter",1995), (2,"Spirited Away","Hayao Miyazaki",2001), (3,"The Lion King","Rob Minkoff, Roger Allers",1994), (4,"Wall-E","Andrew Stanton",2008),(5,"Coraline","Henry Selick",2009),(6,"Shrek","Andrew Adamson, Vicky Jenson",2001),(7,"Spider-Man: Into the Spider-Verse","Joaquim Dos Santos, Kemp Powers, Justin K. Thompson",2018),(8,"Ratatouille","Brad Bird",2007),(9,"Fantastic Mr.Fox","Wes Anderson",2009);
+
+
+--m SQL QUERIES
+-- SELECT * FROM Records WHERE Record_id = 1 OR 2 OR 3
