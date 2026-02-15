@@ -92,7 +92,7 @@ body {
 }
 
 #hero2 {
-  background-image: url("../../images/lionking.png");
+  background-image: url("../../images/animator.png");
   height: 90vh;
   width: 100%;
   background-size: cover;
@@ -184,4 +184,8 @@ button.bottom {
 #product1 .pro .des {
   text-align: start;
   padding: 10px 0;
+}
+
+#product2 {
+  text-align: center;
 }
